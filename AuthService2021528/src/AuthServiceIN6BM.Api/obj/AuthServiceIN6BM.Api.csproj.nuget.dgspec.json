@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Api\\AuthServiceIN6BM.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Api\\AuthServiceIN6BM.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Api\\AuthServiceIN6BM.Api.csproj",
+        "projectName": "AuthServiceIN6BM.Api",
+        "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Api\\AuthServiceIN6BM.Api.csproj",
+        "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj": {
+                "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj"
+              },
+              "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Persistence\\AuthServiceIN6BM.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Persistence\\AuthServiceIN6BM.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.23, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj",
+        "projectName": "AuthServiceIN6BM.Application",
+        "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj",
+        "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj": {
+                "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj",
+        "projectName": "AuthServiceIN6BM.Domain",
+        "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj",
+        "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Persistence\\AuthServiceIN6BM.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Persistence\\AuthServiceIN6BM.Persistence.csproj",
+        "projectName": "AuthServiceIN6BM.Persistence",
+        "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Persistence\\AuthServiceIN6BM.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj": {
+                "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj"
+              },
+              "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj": {
+                "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
