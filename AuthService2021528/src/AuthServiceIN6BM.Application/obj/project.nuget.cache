@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "EbRsy+HkPhs=",
+  "dgSpecHash": "zOBtwPBlPqA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Informatica\\.nuget\\packages\\konscious.security.cryptography.argon2\\1.3.1\\konscious.security.cryptography.argon2.1.3.1.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\konscious.security.cryptography.blake2\\1.1.1\\konscious.security.cryptography.blake2.1.1.1.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.2\\microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.2\\microsoft.extensions.logging.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.2\\system.diagnostics.diagnosticsource.10.0.2.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512"
+  ],
   "logs": []
 }

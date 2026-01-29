@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj": {}
+    "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj": {
+    "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj",
+        "projectUniqueName": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj",
         "projectName": "AuthServiceIN6BM.Application",
-        "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj",
+        "projectPath": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\AuthServiceIN6BM.Application.csproj",
         "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\obj\\",
+        "outputPath": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj": {
-                "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj"
+              "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj": {
+                "projectPath": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj"
               }
             }
           }
@@ -46,6 +46,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Konscious.Security.Cryptography.Argon2": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj": {
+    "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj",
+        "projectUniqueName": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj",
         "projectName": "AuthServiceIN6BM.Domain",
-        "projectPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj",
+        "projectPath": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\AuthServiceIN6BM.Domain.csproj",
         "packagesPath": "C:\\Users\\Informatica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Informatica\\Desktop\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\obj\\",
+        "outputPath": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Informatica\\AppData\\Roaming\\NuGet\\NuGet.Config"
