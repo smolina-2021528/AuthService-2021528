@@ -16,7 +16,7 @@ public class UserEmail
     public bool EmailVerified { get; set; } = false;
 
     [MaxLength(256)]
-    public string? EmailVericationToken { get; set; }
+    public string? EmailVerificationToken { get; set; }
 
     public DateTime? EmailVerificationTokenExpiry { get; set; }
 
