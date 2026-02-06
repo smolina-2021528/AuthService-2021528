@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GwnJ3u84PUw=",
+  "dgSpecHash": "4guJgoNAE+I=",
   "success": true,
   "projectFilePath": "C:\\AuthService-2021528\\AuthService2021528\\src\\AuthServiceIN6BM.Persistence\\AuthServiceIN6BM.Persistence.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Informatica\\.nuget\\packages\\konscious.security.cryptography.argon2\\1.3.1\\konscious.security.cryptography.argon2.1.3.1.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\konscious.security.cryptography.blake2\\1.1.1\\konscious.security.cryptography.blake2.1.1.1.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\mailkit\\4.14.1\\mailkit.4.14.1.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.20\\microsoft.aspnetcore.authentication.jwtbearer.8.0.20.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.build.locator\\1.7.8\\microsoft.build.locator.1.7.8.nupkg.sha512",
@@ -40,6 +41,8 @@
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.15.0\\microsoft.identitymodel.abstractions.8.15.0.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.15.0\\microsoft.identitymodel.jsonwebtokens.8.15.0.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.identitymodel.logging\\8.15.0\\microsoft.identitymodel.logging.8.15.0.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.15.0\\microsoft.identitymodel.tokens.8.15.0.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\Informatica\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",

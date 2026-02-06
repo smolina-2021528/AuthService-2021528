@@ -1,6 +1,6 @@
 namespace AuthServiceIN6BM.Application.DTOs;
 
-public class UpddateUserRoleDto
+public class UpdateUserRoleDto
 {
-    public string roleName { get; set;} = string.Empty;
+    public string RoleName { get; set; } = string.Empty;
 }

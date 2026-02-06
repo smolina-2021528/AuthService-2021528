@@ -1,5 +1,6 @@
 using AuthServiceIN6BM.Application.DTOs;
 using AuthServiceIN6BM.Application.Interfaces;
+using AuthServiceIN6BM.Application.Services;
 using AuthServiceIN6BM.Domain.Constants;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +10,7 @@ namespace AuthServiceIN6BM.Api.Controllers;
 
 [ApiController]
 [Route("api/v1/[controller]")]
-public class UsersController(IUserManagementService userManagementService) : ControllerBase
+public class UsersController(UserManagementService userManagementService) : ControllerBase
 {
     private async Task<bool> CurrentUserIsAdmin()
     {
@@ -23,6 +24,7 @@ public class UsersController(IUserManagementService userManagementService) : Con
     [Authorize]
     [EnableRateLimiting("ApiPolicy")]
     public async Task<ActionResult<UserResponseDto>> UpdateUserRole(string userId, [FromBody] UpdateUserRoleDto dto)
+
     {
         if (!await CurrentUserIsAdmin())
         {

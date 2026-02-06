@@ -9,19 +9,21 @@ public static class UuidGenerator
     private static readonly string Alphabet ="123456789ABCDEFGHJKMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz";
 
     public static string GenerateShortUUID()
+{
+    using var rng = RandomNumberGenerator.Create();
+    var bytes = new byte[12];
+    rng.GetBytes(bytes);
+
+    var result = new StringBuilder(12);
+    for (int i = 0; i < 12; i++)
     {
-        using var rng = RandomNumberGenerator.Create();
-        var bytes = new byte[12];
-        rng.GetBytes(bytes);
-
-        var result = new StringBuilder(12);
-        for (int i = 0; i < 12; i++)
-        {
-            result.Append(Alphabet[bytes[i]] % Alphabet.Length);
-        }
-
-        return result.ToString();
+        // CORRECTO: primero modulo, luego index
+        result.Append(Alphabet[bytes[i] % Alphabet.Length]);
     }
+
+    return result.ToString();
+}
+
 
     public static string GenerateUserId()
     {
